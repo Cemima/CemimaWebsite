@@ -1,0 +1,477 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Amatic SC';font-size: 28px;
+}
+
+.body-text {
+  position: relative;
+  z-index: 10;
+  padding-top: 7rem;
+
+}
+
+nav {
+  color: white;
+  background: black;
+  min-height: 85px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  width: 100%;
+  z-index: 20;
+  transition: 0.45s all ease;
+
+}
+
+.scrolled {
+
+  background: black;
+  opacity: 1.0;
+  transition: 0.45s all ease;
+
+}
+
+.inline-navbar {
+    display: inline-block;
+}
+
+.parallax { 
+        /* The image used */
+    background-image: url("Billeder/Cemima-NoText.jpg");
+
+    /* Full height */
+    height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#FrontImage {
+    height: 100vh;
+}
+
+#bg-mistyrose {
+    height: 100%;
+    background-color: mistyrose;
+}
+
+#Overskrift {
+    padding-left: 46%;
+}
+
+#FooterImage {
+    height: 50%;
+}
+
+.btn-default {
+  white-space:normal !important; word-wrap:break-word;
+  font-size: 17px;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid white;
+  border-radius: 40px;
+  background: white;
+  transition: all 0.3s ease 0s;
+  width: 50%;
+  max-height: 100%;
+}
+
+.btn-default:hover {
+  color: white;
+  background: black;
+  border: 2px solid #0B3E6F;
+}
+
+/*Footer*/
+.footer-bs {
+    background-color: mistyrose;
+	padding: 0px 40px;
+    padding-top: 2%;
+	color: black;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+
+.footer-bs .footer-brand p { font-size:12px; color:black; }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:black; font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:black; text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 21px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:black; }
+.footer-bs .footer-nav ul.list a:hover { color:black; text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 21px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:black;}
+.footer-bs .footer-social a:hover { color:black; text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 21px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:black; }
+
+#NoBackGround {
+    margin-top: 30%;
+    float: center;
+    width: 70vh;
+    height: 70vh;
+}
+
+#NoBackGroundOrigin {
+    width: 100%; !important
+    height: 100%; !important
+}
+
+
+#images {
+    padding-left: 8%;
+}
+
+#Maja_Image {
+    width: 80%;
+}
+
+#Celine_Image {
+    width: 80%;
+}
+
+#Mie_Image {
+    width: 80%;
+}
+
+#os {
+    font-size: 34px;
+}
+
+#bg-Lightblue {
+    padding-top: 6%;
+    height: 100%;
+    background-color: #87ABFF;
+}
+
+
+#ProductOption {
+    background-color: mistyrose;
+}
+
+#slider2 {
+    padding-left: 20%;
+    width: 80%;
+}
+
+#slider1 {
+    padding-left: 20%;
+    width: 80%;
+}
+
+#Picture1 {
+    padding-top: 5%;
+}
+
+#ProductOption2 {
+     background-color: mistyrose;
+}
+
+#carousel-example-one {
+        padding-top: 30%;
+    padding-bottom: 20%;
+    background-color: mistyrose;
+    border-radius: 200px;
+}
+
+#carousel-example-two {
+            padding-top: 30%;
+    padding-bottom: 20%;
+    background-color: mistyrose;
+    border-radius: 200px;
+}
+
+
+
+#navigator {
+    background-color: #87ABFF;
+}
+
+
+
+#parallax1 {
+        /* The image used */
+    background-image: url("Billeder/paralax1.jpg");
+
+    /* Full height */
+    height: 56vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax2 {
+        background-image: url("Billeder/parallax2.jpg");
+
+    /* Full height */
+    height: 57vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hvorfor {
+    padding-top: 2%;
+    padding-left: 39%;
+}
+
+#hvorfor2 {
+    padding-left: 10%;
+}
+
+#text-size {
+    font-size: 35px;
+}
+
+
+
+
+#bg-mistyrose2 {
+        height: 100%;
+    background-color: mistyrose;
+}
+
+#text1 {
+    font-size: 30px;
+}
+
+#bord1 {
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 60%;
+}
+
+#bord2 {
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 70%;
+}
+
+#bg-Lightblue2 {
+        padding-top: 6%;
+    height: 100%;
+    background-color: #87ABFF;
+}
+
+iframe {
+    margin-left: 10%;
+    margin-top: 4%;
+    width: 80%;
+    height: 100%;
+}
+
+#Statistik {
+    margin-top: 10%;
+    font-size: 35px;
+}
+
+    .btn-outline {
+  color: #4fbfa8;
+  background-color: #ffffff;
+  border-color: #4fbfa8;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.btn-outline {
+  color: #4fbfa8;
+  background-color: #ffffff;
+  border-color: #4fbfa8;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: #4fbfa8;
+  color: #ffffff;
+  border-color: #4fbfa8;
+  
+}
+@media (max-width: 1440px) {
+       #bg-mistyrose {
+        height: auto;
+    }
+    
+    #bg-Lightblue {
+        height: auto;
+    } 
+    
+        #parallax2 {
+        background-size: 140%;
+    }
+    
+        #bg-mistyrose2 {
+        height: auto;
+}
+        #bg-Lightblue2 {
+        height: auto;
+}
+}
+
+@media (max-width: 1280px) {
+    #parallax2 {
+        background-size: 140%;
+    }
+    
+}
+
+@media (max-width: 1300px) {
+    #bg-mistyrose {
+        height: auto;
+    }
+    
+    #bg-Lightblue {
+        height: auto;
+        padding-top: 11%;
+    }
+    
+    #bg-mistyrose2 {
+        height: auto;
+        padding-top: 5%;
+}
+    
+    #bg-Lightblue2 {
+        height: auto;
+        padding-bottom: 1.9%;
+}
+}
+
+@media (max-width: 1100px) {
+    
+    #taske2 {
+    width: 20%;
+}
+    #taske3 {
+    width: 20%;
+}
+    
+        #Hovedskrift2 {
+    padding-left: 18%;
+    color: #87ABFF;
+}
+    
+    #Overskrift {
+    padding-left: 34%;
+}
+    
+    #Maja_Image {
+    margin-left: 6%;
+}
+    #Mie_Image {
+   margin-left: 6%;
+}
+    #Celine_Image {
+   margin-left: 6%;
+}
+    #hvorfor {
+    padding-top: 20%;
+    padding-left: 6%;
+}
+        #bg-mistyrose {
+        height: auto;
+    }
+    
+    #bg-Lightblue {
+        height: auto;
+        padding-top: 25%;
+    }
+    
+    #bg-mistyrose2 {
+        height: auto;
+}
+    
+    #bg-Lightblue2 {
+        height: auto;
+}
+    
+    #parallax0 {
+        display: none;
+    }
+   
+    #parallax1 {
+        display: none
+}
+    
+    #parallax2 {
+        display: none;
+    }
+    
+    #parallax3 {
+        display: none;
+    }
+    #MobilTitel {
+    background-color: #08304F;
+    height: 100%;
+}
+    #Hovedskrift2 {
+    font-size: 90px;
+    padding-top: 50%;
+}
+}
+@media (min-width: 1100px) {
+        #MobilTitel {
+    background-color: #08304F;
+    height: 0%;
+}
+    #Hovedskrift2 {
+    font-size: 0px
+}
+}
+
+#parallax3 {
+            background-image: url("Billeder/Parallax3.jpg");
+
+    /* Full height */
+    height: 57vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#taske2 {
+    width: 70%;
+}
+
+#taske3 {
+        width: 70%;
+}
